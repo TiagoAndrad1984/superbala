@@ -1,0 +1,1 @@
+alert("Escript bala painel");
