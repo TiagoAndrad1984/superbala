@@ -1,0 +1,39 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: boder-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background: url('superBala.png');
+	background-size:cover;
+	background-position: center;
+}
+.container{
+	width: 420px;
+	background-color: transparent ;
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-radius:10px;
+	color:#ff00ff;
+	padding: 30px, 40px;
+	box-shadow:0 0 10px rgba(0, 255,  0, .5);
+}
+.container h1{
+	font-size: 36px;
+	text-align: center;
+}
+.input-x{
+	position: relative;
+	width: 100px;
+}
+.cad{
+	color:#00FF00;
+}
+.sen{
+	color:#ff0000;
+}
